@@ -23,6 +23,26 @@
     border: 3px solid #7c3aed; /* بنفسجي ناعم */
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
 }
+.tools-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+#tools ul li {
+    margin: 0.4rem 0;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-size: 1rem;
+}
+
+#tools h3 i {
+    margin-right: 0.4rem;
+    color: #7c3aed;
+}
+
 
 
 .profile-info h1 {
@@ -98,6 +118,11 @@ body {
     padding: 0;
     margin: 0;
 }
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
 
 #skills li {
     margin-bottom: 0.6rem;
@@ -153,10 +178,6 @@ header img {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10);
 }
 
-/* ======================= */
-/* ===== Navigation ====== */
-/* ======================= */
-
 nav a {
     color: #fff;
     text-decoration: none;
@@ -175,10 +196,6 @@ nav a:focus {
     outline: none;
 }
 
-/* ====================== */
-/* ======= Main ========= */
-/* ====================== */
-
 main {
     max-width: 900px;
     margin: 2.5rem auto;
@@ -187,10 +204,6 @@ main {
     border-radius: 12px;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
 }
-
-/* ====================== */
-/* ====== Headings ====== */
-/* ====================== */
 
 h2 {
     color: #7c3aed;
@@ -201,18 +214,11 @@ h2 {
     border-bottom: 2px solid #e0e0e0;
 }
 
-/* ====================== */
-/* === Icon Styling ===== */
-/* ====================== */
-
 ul li i {
     color: #7c3aed;
     min-width: 20px;
 }
 
-/* ====================== */
-/* ======= Links ======== */
-/* ====================== */
 
 a {
     color: #7c3aed;
@@ -226,10 +232,6 @@ a:focus {
     text-decoration: underline;
     outline: none;
 }
-
-/* ====================== */
-/* ======= Footer ======= */
-/* ====================== */
 
 footer {
     background-color: #111;
