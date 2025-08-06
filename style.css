@@ -18,9 +18,9 @@
     height: 140px;
     border-radius: 50%;
     object-fit: cover;
-    background-color: #111; /* نفس الخلفية الداكنة */
+    background-color: #111;
     padding: 6px;
-    border: 3px solid #7c3aed; /* بنفسجي ناعم */
+    border: 3px solid #7c3aed;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
 }
 .tools-grid {
@@ -80,10 +80,6 @@ body {
     padding: 0;
     line-height: 1.6;
 }
-
-/* ============================= */
-/* ===== Project Card Hover ==== */
-/* ============================= */
 
 .project-card {
     background: #faf7ff;
@@ -234,8 +230,8 @@ a:focus {
 }
 
 footer {
-    background-color: #111;
-    color: #ccc;
+    background: linear-gradient(135deg, #111 0%, #7c3aed 100%);
+    color: #eee;
     text-align: center;
     padding: 2rem 1rem;
     margin-top: 3rem;
@@ -245,13 +241,16 @@ footer {
 }
 
 footer a {
-    color: #7c3aed;
+    color: #fff;
     text-decoration: none;
+    transition: 0.3s;
 }
 
 footer a:hover {
+    color: #7c3aed;
     text-decoration: underline;
 }
+
 
 
 
@@ -261,4 +260,6 @@ footer a:hover {
     box-shadow: 0 6px 20px rgba(124, 58, 237, 0.15);
     transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
 }
+
+
 
