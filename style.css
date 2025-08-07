@@ -241,6 +241,7 @@ footer a:hover {
     text-decoration: underline;
 }
 
+
 .flex-sections > section:hover {
     transform: translateY(-6px);
     background: #f3e8ff;
