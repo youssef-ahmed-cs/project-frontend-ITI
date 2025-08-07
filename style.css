@@ -23,6 +23,7 @@
     border: 3px solid #7c3aed;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
 }
+
 .tools-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
@@ -42,8 +43,6 @@
     margin-right: 0.4rem;
     color: #7c3aed;
 }
-
-
 
 .profile-info h1 {
     font-size: 1.8rem;
@@ -68,7 +67,7 @@
     border-radius: 8px;
     text-decoration: none;
     font-weight: bold;
-    box-shadow: 0 4px 10px rgba(124, 58, 237, 0.3);
+    box-shadow: 0 4px 10px rgba(81, 33, 168, 0.3);
     transition: background 0.3s ease;
 }
 
@@ -96,10 +95,6 @@ body {
     background: #f3e8ff;
     box-shadow: 0 6px 20px rgba(124, 58, 237, 0.12);
 }
-
-/* ============================= */
-/* ===== Flex Layout Cards ===== */
-/* ============================= */
 
 .flex-sections {
     display: flex;
@@ -133,7 +128,6 @@ ul {
     min-width: 20px;
 }
 
-
 .flex-sections > section {
     flex: 1 1 0;
     min-width: 250px;
@@ -152,10 +146,6 @@ ul {
         gap: 1.5rem;
     }
 }
-
-/* ====================== */
-/* ======= Header ======= */
-/* ====================== */
 
 header {
     background: linear-gradient(90deg, #222 60%, #7c3aed 100%);
@@ -250,9 +240,6 @@ footer a:hover {
     color: #7c3aed;
     text-decoration: underline;
 }
-
-
-
 
 .flex-sections > section:hover {
     transform: translateY(-6px);
